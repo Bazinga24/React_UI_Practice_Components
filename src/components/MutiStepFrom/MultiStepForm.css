@@ -1,0 +1,65 @@
+.form-container {
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+  gap: 15px; /* Add space between elements */
+  width: 300px; /* Set a fixed width for the form */
+  padding: 20px; /* Add padding around the form */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  background: #f9f9f9; /* Light background */
+  margin: 50px auto; /* Center the form on the page */
+}
+
+.form-container label {
+  font-size: 18px; /* Bigger font for visibility */
+  color: #333; /* Dark text color */
+}
+
+.form-container input {
+  padding: 10px; /* Space inside input */
+  font-size: 16px; /* Readable text size */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  outline: none; /* Remove outline on focus */
+  transition: all 0.3s;
+}
+
+.form-container input:focus {
+  border-color: #be51be; /* Highlight border on focus */
+  box-shadow: 0 0 8px rgba(160, 68, 163, 0.5);
+}
+
+.form-container button {
+  padding: 12px 20px; /* Add padding to button */
+  font-size: 16px; /* Readable text */
+  color: #fff; /* White text color */
+  background: #7c2584; /* Blue button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  transition: all 0.3s;
+}
+
+.form-container button:hover {
+  background: #0056b3; /* Darker shade on hover */
+}
+
+.back-button {
+  width: 7rem;
+  height: 2rem;
+  padding: 0.3rem;
+  background-color: #7c2584;
+  color: white;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #7c2584;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  background-color: #0056b3;
+  border: 0.1rem solid #0056b3;
+}

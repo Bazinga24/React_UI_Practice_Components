@@ -1,0 +1,38 @@
+#mortage-container {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  margin: 5rem auto;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  border: 0.2rem solid black;
+  font-family: monospace;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  margin-left: 2rem;
+}
+
+.input-container input {
+  margin: 0.4rem 0rem;
+  margin-right: 0.5rem;
+}
+
+#submit-button {
+  width: 6rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+#result {
+  margin-top: 1.5rem;
+  font-size: large;
+}

@@ -1,0 +1,25 @@
+#title {
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+.clock-container {
+  width: 30%;
+  height: 5rem;
+  background-color: rgb(190, 20, 199);
+  margin: 2rem auto;
+  border-radius: 15%;
+}
+
+.clock-container span {
+  display: inline-block;
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: 600;
+  margin: 1.3rem 0.2rem;
+  color: white;
+}
+
+#after-text {
+  margin-left: 0.5rem;
+}

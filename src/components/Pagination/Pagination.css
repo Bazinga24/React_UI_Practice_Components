@@ -1,0 +1,90 @@
+/* General styling for the list */
+.post-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post-container li {
+  background: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.post-container li:hover {
+  transform: translateX(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the loading message */
+.post-container h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #4caf50;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Navigation container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Styling for the list */
+.button-container ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 12px;
+}
+
+/* Styling for each page number */
+.button-container li {
+  margin: 0;
+}
+
+.button-container a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.button-container a:hover {
+  background-color: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+  transform: scale(1.1);
+}
+
+/* Active page number (you can dynamically add this class) */
+.active {
+  background-color: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
